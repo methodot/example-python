@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "自动触发-2"
+    return "前海触发构建企业通知"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
